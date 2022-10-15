@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Active tab -->
+      <div class="tab active" onclick="onTab(0)">HTML5</div>
+
+      <!-- Inactive tab -->
+      <div class="tab inactive" onclick="onTab(1)">CSS</div>
+
+      <div class="tab inactive" onclick="onTab(2)">JS</div>
+      <div class="tab inactive" onclick="onTab(3)">React</div>
+    </div>
+    <div class="content-container">
+      <div class="content">
+        The HyperText Markup Language or HTML is the standard markup language
+        for documents designed to be displayed in a web browser.
+      </div>
+      <div class="content">
+        Cascading Style Sheets is a style sheet language used for describing the
+        presentation of a document written in a markup language such as HTML or
+        XML.
+      </div>
+      <div class="content">
+        JavaScript, often abbreviated JS, is a programming language that is one
+        of the core technologies of the World Wide Web, alongside HTML and CSS.
+      </div>
+      <div class="content">
+        React is a free and open-source front-end JavaScript library for
+        building user interfaces based on UI components.
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
